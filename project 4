@@ -1,0 +1,5 @@
+number = int(input("enter your number"))
+
+squareroot = number** 0.5
+
+print("the square root of ", number , "is ", squareroot)
