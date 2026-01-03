@@ -1,0 +1,13 @@
+print("Enter marks from 4 subjects:")
+math = int(input("Math:"))
+english = int(input("English:"))
+history = int(input("History:"))
+geography = int(input("Geography:"))
+
+sum = math+english+history+geography
+print("The sum of all marks is ", sum)
+
+perc = (sum/4)
+
+print(end="percentage mark = ")
+print(perc)
