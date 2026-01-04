@@ -1,0 +1,8 @@
+sale = float(input("Enter how much you bought it for"))
+resale = float(input("Enter how much you resold it for"))
+profit = resale-sale
+
+if resale>sale:
+ print("The profit you made is", profit)
+else:
+ print("No profit!!!!1")
