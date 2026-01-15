@@ -1,0 +1,6 @@
+item = int(input("Enter how much money you have"))
+
+if item >=50:
+ print("You have enough for the product")
+else:
+ print("Sorry, you don't have enough")
